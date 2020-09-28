@@ -20,5 +20,5 @@ Python3 is required to run this program. There are no packages required to run t
 
 Clone the repository and run the script as the main module. In the Terminal:
 
-> git clone git@github.com:yuvaltimen/NLP_chatbot.git
-> python3 chatbot.py
+    git clone git@github.com:yuvaltimen/NLP_chatbot.git\n
+    python3 chatbot.py
