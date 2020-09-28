@@ -2,13 +2,13 @@
 
 ## About
 
-This is my implementation of a basic NLP Chatbot, which was assigned as a homework problem for my course in Natural Language Processing.\n
-Based on ELIZA, the Rogerian psychotherapist, (http://psych.fullerton.edu/mbirnbaum/psych101/Eliza.htm), the chatbot uses Regular Expressions to mimic back the input to the user.\n
+This is my implementation of a basic NLP Chatbot, which was assigned as a homework problem for my course in Natural Language Processing.
+Based on ELIZA, the Rogerian psychotherapist, (http://psych.fullerton.edu/mbirnbaum/psych101/Eliza.htm), the chatbot uses Regular Expressions to mimic back the input to the user.
 It replaces all first person parts of speech to second person and vice versa,
 however this was implemented without any grammatical analysis, just regex. Therefore,
 the responses will not be perfect. The main problem it encounters so far is the ambiguity
-of the pronoun "you" - this can either be the subject or the object of the sentence.\n
-It uses a rule-based approach to solving this problem.\n
+of the pronoun "you" - this can either be the subject or the object of the sentence.
+It uses a rule-based approach to solving this problem.
 Additionally, I've implemented evaluation of basic mathematical expressions (addition, subtraction, multiplication, division). When the regex recognizes one of these phrases,
 the output will respond as usual, but with the expression evaluated.
 
